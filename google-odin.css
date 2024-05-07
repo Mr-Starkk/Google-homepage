@@ -1,0 +1,64 @@
+.headbutton {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+a {
+    color: rgb(48, 47, 47);
+    font-family: sans-serif;
+    margin: 10px 6px 10px 6px;
+    text-decoration: none;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#logo {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 90px;
+    padding: 25px 25px 25px 25px;
+}
+
+.bar {
+    margin: 0 auto;
+    width: 505px;
+    border-radius: 30px;
+    border: solid thin rgb(211, 210, 210);
+    height: 45px;
+    outline: thin;
+}
+
+.bar:hover {
+    box-shadow: 2px 2px 8px 2px rgb(160, 160, 160);
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.thebutt {
+    padding: 13px;
+    margin: 5px;
+    margin-top: 25px;
+    border: transparent;
+    border-radius: 4px;
+    background-color: rgb(228, 228, 228);
+}
+
+.thebutt:hover {
+    box-shadow: 2px 2px 4px 2px rgb(228, 225, 225);
+}
+
+.signbutt {
+    background-color: rgb(87, 151, 177);
+    height: 33px;
+    width: 70px;
+
+}
